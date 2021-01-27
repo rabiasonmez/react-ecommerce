@@ -1,98 +1,98 @@
 import React from 'react'
 
 const Contact = (props) => {
-    return (
-        <div className="contact3 py-5">
-        <div className="row no-gutters">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="card-shadow">
-                  <img alt="" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/2.jpg" className="img-fluid" />
-                </div>
+  return (
+
+    <section class="contact_page pt-120 pb-120">
+      <div class="container">
+        <div class="contact_map">
+          <div class="gmap_canvas">
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="contact_form mt-30">
+              <div class="contact_title">
+                <h5 class="title">Send Message Us </h5>
               </div>
-              <div className="col-lg-6">
-                <div className="contact-box ml-3">
-                  <h1 className="font-weight-light mt-2">Quick Contact</h1>
-                  <form className="mt-4">
-                    <div className="row">
-                      <div className="col-lg-12">
-                        <div className="form-group mt-2">
-                          <input className="form-control" type="text" placeholder="name" />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form-group mt-2">
-                          <input className="form-control" type="email" placeholder="email address" />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form-group mt-2">
-                          <input className="form-control" type="text" placeholder="phone" />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form-group mt-2">
-                          <textarea className="form-control" rows="3" placeholder="message"></textarea>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <button type="submit" className="btn btn-danger-gradiant mt-3 text-white border-0 px-3 py-2"><span> SUBMIT</span></button>
+              <form id="contact-form" action="assets/contact.php" method="post">
+                <div class="contact_form_wrapper">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="single_form">
+                        <input type="text" name="name" placeholder="Name" />
+                        <i class="fas fa-user"></i>
                       </div>
                     </div>
-                  </form>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="card mt-4 border-0 mb-4">
-                  <div className="row">
-                    <div className="col-lg-4 col-md-4">
-                      <div className="card-body d-flex align-items-center c-detail pl-0">
-                        <div className="mr-3 align-self-center">
-                          <img alt="" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon1.png" />
-                        </div>
-                        <div className="">
-                          <h6 className="font-weight-medium">Address</h6>
-                          <p className="">601 Sherwood Ave.
-                            <br /> San Bernandino</p>
-                        </div>
+                    <div class="col-md-6">
+                      <div class="single_form">
+                        <input type="email" name="email" placeholder="Email" />
+                        <i class="fas fa-envelope"></i>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4">
-                      <div className="card-body d-flex align-items-center c-detail">
-                        <div className="mr-3 align-self-center">
-                          <img alt="" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon2.png" />
-                        </div>
-                        <div className="">
-                          <h6 className="font-weight-medium">Phone</h6>
-                          <p className="">251 546 9442
-                            <br /> 630 446 8851</p>
-                        </div>
+                    <div class="col-md-12">
+                      <div class="single_form">
+                        <input type="text" name="subject" placeholder="Subject" />
+                        <i class="far fa-i-cursor"></i>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4">
-                      <div className="card-body d-flex align-items-center c-detail">
-                        <div className="mr-3 align-self-center">
-                          <img alt="" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon3.png"/>
-                        </div>
-                        <div className="">
-                          <h6 className="font-weight-medium">Email</h6>
-                          <p className="">
-                            info@wrappixel.com
-                            <br /> 123@wrappixel.com
-                          </p>
-                        </div>
+                    <div class="col-md-12">
+                      <div class="single_form">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <i class="fas fa-edit"></i>
+                      </div>
+                    </div>
+                    <p class="form-message"></p>
+                    <div class="col-md-12">
+                      <div class="single_form">
+                        <button class="main-btn">Sand Message</button>
                       </div>
                     </div>
                   </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact_info">
+              <div class="contact_title mt-30">
+                <h5 class="title">Get In Touch</h5>
+              </div>
+              <p>Lorem Ipsum Is simply dummy text of the printing and typesetting Industry. Lorem Ipsum has been the Industry's</p>
+
+              <div class="single_info d-flex">
+                <div class="info_icon">
+                  <i class="far fa-map"></i>
+                </div>
+                <div class="info_content media-body">
+                  <p>Level 13, 2 Ellzabeth St, Lorem Ipsum Is simply dummy text</p>
+                </div>
+              </div>
+              <div class="single_info d-flex">
+                <div class="info_icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="info_content media-body">
+                  <p>+88 0123456789</p>
+                  <p>+88 0123456789</p>
+                </div>
+              </div>
+              <div class="single_info d-flex">
+                <div class="info_icon">
+                  <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <div class="info_content media-body">
+                  <p>info@classified.com</p>
+                  <p>info.classified@gmail..com</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+    </section>
 
-    );
+  );
 }
 export default Contact;

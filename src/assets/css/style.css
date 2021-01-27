@@ -2078,7 +2078,8 @@ p {
 .about_image {
   height: 550px;
   width: 100%;
-  border-radius: 10px; }
+  border-radius: 10px; 
+  background-image: url(http://firmadukkani.com/odev/project-2/images/about-image.jpg)}
   @media (max-width: 767px) {
     .about_image {
       height: 450px; } }
