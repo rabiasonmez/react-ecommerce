@@ -1,0 +1,28 @@
+import React from 'react';
+import ProductCard from "./ProductCard";
+import products from "../../data/products.json";
+import Search from "../Search";
+
+const Products = (props) => {
+    const productItems = products.results.filter(item => item.isActive).map((item) => (
+        <div className={"mb-3 col-sm-4"} key={item.id}>
+            <ProductCard id={item.id} title={item.title} detail={item.detail} isActive={item.isActive} />
+        </div>
+    ))
+    return (
+        <>
+            <h1>Products</h1>
+            <hr className="my-1" />
+            <div className="container">
+
+                <div className="row">
+                    <Search />
+                    <hr /></div>
+
+                <div className="row">
+                    {productItems}</div>
+            </div>
+        </>
+    );
+}
+export default Products;
