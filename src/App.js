@@ -6,7 +6,9 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
-import Navbar  from "./containers/Navbar";
+
+import Footer from "./containers/Footer";
+import Navbar from "./containers/Navbar";
 //import PreLoader from "./components/base/PreLoader";
 import { links } from "./data/links"
 
@@ -24,7 +26,7 @@ function App() {
           <Redirect to={"/404"} />
         </Route>
       </Switch>
-
+      <Footer />
 
     </ BrowserRouter>
 

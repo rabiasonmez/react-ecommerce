@@ -11,8 +11,6 @@ const Products = (props) => {
     ))
     return (
         <>
-            <h1>Products</h1>
-            <hr className="my-1" />
             <div className="container">
 
                 <div className="row">
