@@ -6,7 +6,7 @@ const ProductDetail = (props) => {
     const params = useParams();
     const { id, title, detail } = products.results.filter(item => item.id === parseInt(params.productID))[0];
     return (
-        <>
+        <div className={"container"}>
             <nav aria-label="breadcrumb" className="bg-light border-1 rounded p-3 my-2">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item">
@@ -25,7 +25,7 @@ const ProductDetail = (props) => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 export default ProductDetail;
