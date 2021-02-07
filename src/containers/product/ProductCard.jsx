@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const ProductCard = (props) => {
-    const { id, title, detail } = props;
+    const { id, title, detail,category,price,date } = props;
     return (
        
             <div class="single_ads_card mt-30" key={id}>
