@@ -6,7 +6,7 @@ import Search from "../Search";
 const Products = (props) => {
     const productItems = products.results.filter(item => item.isActive).map((item) => (
         <div class="col-lg-3 col-sm-6" key={item.id}>
-            <ProductCard id={item.id} title={item.title} detail={item.detail} isActive={item.isActive} />
+            <ProductCard id={item.id} title={item.title} detail={item.detail} isActive={item.isActive} category={item.category} price={item.price} date={item.date} />
         </div>
     ))
     return (
