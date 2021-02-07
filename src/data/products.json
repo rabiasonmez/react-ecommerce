@@ -1,50 +1,50 @@
 {
-    "results": [
-        {
-            "id": 1,
-            "title": "Nikon Camera",
-            "detail": "New York, USA",
-            "price":"129",
-            "category":"Gadgets",
-            "date":"25 Jan, 2023",
-            "isActive": false
-        },
-        {
-            "id": 2,
-            "title": "Fresh Digital Camera",
-            "detail": "New York, USA",
-            "price":"99",
-            "category":"Camera",
-            "date":"12 Jan, 2023",
-            "isActive": false
-        },
-           {
-            "id": 3,
-            "title": "Samsung Glalaxy S8",
-            "detail": "New York, USA",
-            "price":"299",
-            "category":"Mobile",
-            "date":"25 Jan, 2023",
-            "isActive": false
-        },
-        {
-            "id": 4,
-            "title": "iPhone X Fresh",
-            "detail": "Delaware, USA",
-            "price":"234",
-            "category":"Mobile",
-            "date":"10 Jun, 2023",
-            "isActive": false
-        },
-        {
-            "id": 4,
-            "title": "High-performance Bi-Cycle",
-            "detail": "New York, USA",
-            "price":"299",
-            "category":"Vehicle",
-            "date":"26 Jun, 2023",
-            "isActive": false
-        },
-        
-    ]
-}
+        "results": [
+            {
+                "id": 1,
+                "title": "Nikon Camera",
+                "detail": "New York, USA",
+                "price": "129",
+                "category": "Gadgets",
+                "date": "25 Jan, 2023",
+                "isActive": false
+            },
+            {
+                "id": 2,
+                "title": "Fresh Digital Camera",
+                "detail": "New York, USA",
+                "price": "99",
+                "category": "Camera",
+                "date": "12 Jan, 2023",
+                "isActive": false
+            },
+            {
+                "id": 3,
+                "title": "Samsung Glalaxy S8",
+                "detail": "New York, USA",
+                "price": "299",
+                "category": "Mobile",
+                "date": "25 Jan, 2023",
+                "isActive": false
+            },
+            {
+                "id": 4,
+                "title": "iPhone X Fresh",
+                "detail": "Delaware, USA",
+                "price": "234",
+                "category": "Mobile",
+                "date": "10 Jun, 2023",
+                "isActive": false
+            },
+            {
+                "id": 4,
+                "title": "High-performance Bi-Cycle",
+                "detail": "New York, USA",
+                "price": "299",
+                "category": "Vehicle",
+                "date": "26 Jun, 2023",
+                "isActive": false
+            }
+
+        ]
+    }
