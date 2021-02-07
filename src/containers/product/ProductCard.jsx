@@ -11,13 +11,13 @@ const ProductCard = (props) => {
                 </div>
                 <div class="ads_card_content">
                     <div class="meta d-flex justify-content-between">
-                        <p>Gadgets</p>
+                        <p>{category}</p>
                     </div>
                     <h4 class="title"><Link to={`/products/${id}`} className="btn btn-primary">{title}</Link></h4>
                     <p><i class="far fa-map"></i>{detail}</p>
                     <div class="ads_price_date d-flex justify-content-between">
-                        <span class="price">$129.00</span>
-                        <span class="date">25 Jan, 2023</span>
+                        <span class="price">${price}</span>
+                        <span class="date">{date}</span>
                     </div>
                     
                 </div>
