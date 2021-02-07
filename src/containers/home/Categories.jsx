@@ -20,7 +20,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">DSLR Camera</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -31,7 +31,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Cell Phone</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -42,7 +42,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Laptop</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -53,7 +53,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Headphones</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -64,7 +64,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Jewelry</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -75,7 +75,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Backpacks</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -86,7 +86,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Vehicles</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -97,7 +97,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Furniture</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -108,7 +108,7 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Gadgets</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
                 <div class="category-column">
@@ -119,12 +119,12 @@ const HomeCategories = (props) => {
                         <div class="content">
                             <h6 class="title">Watches</h6>
                         </div>
-                        <a href="product.html"></a>
+                        <a href=""></a>
                     </div>
                 </div>
 
                 <div class="category_btn">
-                    <a class="main-btn" href="categories.html">View all Catagories</a>
+                    <a class="main-btn" href="">View all Catagories</a>
                 </div>
             </div>
         </div>
