@@ -21,7 +21,7 @@ const Search = (props) => {
                 item => item.title.toLowerCase().includes(q.toLowerCase())
             ).map((item) => (
                 <div className={"mb-3 col-sm-3"} key={item.id}>
-                    <ProductCard id={item.id} title={item.title} detail={item.detail} isActive={item.isActive} />
+                    <ProductCard id={item.id} title={item.title} detail={item.detail} isActive={item.isActive} category={item.category} price={item.price} date={item.date} />
                 </div>
             ))
             setSearchResult(searchedProducts);
