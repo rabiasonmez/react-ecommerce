@@ -8,11 +8,9 @@ const HeaderSearch = (props) => {
                 <div className="row">
                     <div className="col-lg-10">
                         <div className="content_wrapper">
-                            <h3 className="title">You're Using Free Version of ClassiFied</h3>
-                            <p>Please, purchase full version of the template to get all pages, features and permission to use in commercial projects.</p>
-                            <ul className="header_btn">
-                                <li><a className="main-btn" href="https://rebrand.ly/classified-gg" rel="nofollow">Purchase Now</a></li>
-                            </ul>
+                            <h3 className="title">You're Search Your Product</h3>
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                          
                         </div>
                     </div>
                 </div>
